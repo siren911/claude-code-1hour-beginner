@@ -6,14 +6,19 @@
   "description": "Claude Code 1-hour seminar for beginners (non-developers, PMs, students)",
   "scripts": {
     "dev": "slidev slides/slides.md --open",
+    "dev:memory-cs": "slidev variants/memory-cs/slides/slides.md --open --port 3031",
     "build": "slidev build slides/slides.md --base /claude-code-1hour-beginner/",
+    "build:memory-cs": "slidev build variants/memory-cs/slides/slides.md --base /claude-code-1hour-beginner/memory-cs/ --out ../../../variants/memory-cs/dist",
+    "build:all": "npm run build && npm run build:memory-cs && node scripts/merge-dist.mjs",
     "export": "slidev export slides/slides.md",
+    "export:memory-cs": "slidev export variants/memory-cs/slides/slides.md --output variants/memory-cs/slides-export.pdf",
     "lint": "echo \"no lint configured\""
   },
   "dependencies": {
     "@slidev/cli": "^0.49.0",
     "@slidev/theme-default": "^0.25.0",
     "@slidev/theme-seriph": "^0.25.0",
+    "playwright-chromium": "^1.60.0",
     "vue": "^3.4.0"
   },
   "license": "MIT"

@@ -1,0 +1,20 @@
+From: sourcing@customer-y.example
+Date: 2026-04-03 10:35
+Subject: Shipment delay notification — need response by COB
+
+Hi team,
+
+We received notification that shipment SHP-2026-Q2-0042 (8k
+units LPDDR5-12Gb) is delayed by 5 days. Original ETA was
+4/8, revised ETA is 4/13.
+
+This impacts our line schedule on 4/10. Options on our side:
+1. Accept the delay (preferred if revised ETA holds)
+2. Partial expedited shipment (3k by 4/8, remainder by 4/13)
+3. Air freight upgrade
+
+Please confirm by COB today which option is feasible from
+your side. Speed of response > detail.
+
+Thanks,
+Sourcing, Customer Y

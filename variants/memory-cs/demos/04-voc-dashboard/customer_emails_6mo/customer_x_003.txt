@@ -1,0 +1,22 @@
+From: engineering@customer-x.example
+Date: 2026-04-12 09:42
+Subject: [URGENT] Retention failure on lot ABC-2025-K42
+
+Hi memory team,
+
+We've completed our reliability qualification on the DDR5 8Gb
+samples from lot ABC-2025-K42, and the results are blocking
+our Q2 production schedule.
+
+[Test conditions and BER measurements: see attached]
+
+Per datasheet, BER spec is 1e-8 max. Our measurement shows
+5e-7 average, with worst die at 1.2e-6. This is 50x and 120x
+over spec, respectively.
+
+We need at least a preliminary response by 5/15 to keep our
+program on schedule. Happy to set up a tech-level call if
+that's faster.
+
+Best regards,
+Engineering Team, Customer X

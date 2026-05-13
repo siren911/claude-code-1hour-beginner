@@ -1,0 +1,21 @@
+From: engineering@customer-x.example
+Date: 2026-01-22 14:51
+Subject: Endurance characterization data request
+
+Hi team,
+
+For our Q1 program qualification, we need the following
+characterization data on DDR5-8Gb (latest fab revision):
+
+1. Endurance: P/E cycles at 85C, 105C, 125C (Weibull plot if available)
+2. Retention: tR at 85C and 105C, post-1000h stress
+3. Refresh interval sensitivity under thermal cycling
+
+Datasheet rev 1.3 references "characterization data available
+on request" — we are now formally requesting per that line.
+
+Per our NDA, this can be shared via your secure portal. We
+need it by 1/29 for our internal design review.
+
+Best regards,
+Engineering Team, Customer X

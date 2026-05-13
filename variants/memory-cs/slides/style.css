@@ -1,0 +1,121 @@
+/* Brand Blue 톤 — 메모리 CS팀 변형판 (회사별 컬러로 변경 가능) */
+
+:root {
+  --brand-blue: #1428A0;
+  --brand-blue-dark: #0E1A6E;
+  --brand-blue-light: #5577FF;
+  --brand-blue-tint: #E8EDFA;
+  --brand-text: #0A0A14;
+  --brand-text-muted: #5A5A6E;
+  --brand-surface: #FFFFFF;
+  --brand-divider: #D6D8E8;
+  --brand-warn: #D97706;
+  --brand-error: #DC2626;
+  --brand-success: #16A34A;
+}
+
+/* 본문 기본 톤 */
+.slidev-layout {
+  --slidev-theme-primary: var(--brand-blue);
+}
+
+.slidev-layout strong {
+  color: var(--brand-blue);
+}
+
+.slidev-layout a {
+  color: var(--brand-blue-light);
+}
+
+/* 표 — 헤더 행 Brand Blue */
+.slidev-layout table {
+  border-collapse: collapse;
+}
+
+.slidev-layout table thead tr {
+  background: var(--brand-blue);
+  color: white;
+}
+
+.slidev-layout table thead th {
+  padding: 0.5em 0.75em;
+  font-weight: 600;
+}
+
+.slidev-layout table tbody td {
+  padding: 0.4em 0.75em;
+  border-bottom: 1px solid var(--brand-divider);
+}
+
+.slidev-layout table tbody tr:nth-child(even) {
+  background: var(--brand-blue-tint);
+}
+
+/* Brand Blue 풀블리드 슬라이드 (cover / section / end) */
+.brand-cover {
+  background: linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-blue-dark) 100%) !important;
+  color: white !important;
+}
+
+.brand-cover h1,
+.brand-cover h2,
+.brand-cover h3 {
+  color: white !important;
+}
+
+.brand-cover .opacity-80 { opacity: 0.8; }
+.brand-cover .opacity-60 { opacity: 0.6; }
+
+/* 보안 체크리스트 박스 */
+.security-ok {
+  border-left: 4px solid var(--brand-success);
+  background: #F0FDF4;
+  padding: 0.75em 1em;
+  margin: 0.5em 0;
+}
+
+.security-warn {
+  border-left: 4px solid var(--brand-warn);
+  background: #FEF3C7;
+  padding: 0.75em 1em;
+  margin: 0.5em 0;
+}
+
+.security-forbid {
+  border-left: 4px solid var(--brand-error);
+  background: #FEE2E2;
+  padding: 0.75em 1em;
+  margin: 0.5em 0;
+}
+
+/* 강조 인용 박스 */
+.brand-quote {
+  border-left: 4px solid var(--brand-blue);
+  background: var(--brand-blue-tint);
+  padding: 1em 1.25em;
+  margin: 1em 0;
+  font-style: italic;
+}
+
+/* 크레딧 — 우하단 작게 */
+.credit-bottom-right {
+  position: absolute;
+  bottom: 1.5em;
+  right: 2em;
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+
+/* 핵심 메시지 — 큰 글씨 */
+.key-message {
+  font-size: 1.5em;
+  color: var(--brand-blue);
+  text-align: center;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+/* 코드 블록 — 다크 톤 */
+.slidev-code-wrapper pre {
+  background: var(--brand-blue-dark) !important;
+}

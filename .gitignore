@@ -10,6 +10,11 @@ dist/
 # Slidev build artifacts
 slides/.slidev/
 slides/dist/
+slides-export.pdf
+variants/memory-cs/slides/.slidev/
+variants/memory-cs/dist/
+variants/memory-cs/slides-export.pdf
+pages-dist/
 
 # OS
 Thumbs.db

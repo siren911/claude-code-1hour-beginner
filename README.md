@@ -1,15 +1,23 @@
 # Claude Code 1시간 세미나 — 초급자용
 
-> **비개발자도 1시간 안에 AI 동료와 일하기**
-> PM·기획자·학생을 위한 Claude Code 입문 자료
+> **개발자: 복부인 with Opus 4.7**
+> 비개발자도 1시간 안에 AI 동료와 일하기 — PM·기획자·학생·CS팀을 위한 Claude Code 입문 자료
 
 ---
+
+## 두 가지 변형판
+
+| 자료 | 대상 | 경로 |
+|---|---|---|
+| **일반 직장인용** | PM·기획자·학생·비개발자 | [`slides/`](slides/) · [`demos/`](demos/) |
+| **메모리 CS팀용** | 반도체 메모리 회사 CS팀 (NDA·고객 데이터 민감 환경) | [`variants/memory-cs/`](variants/memory-cs/) |
 
 ## 누구를 위한 자료인가
 
 - **PM/기획자**: 매일 회의록·요구사항·CSV 정리에 시간 쓰는 분
 - **학생/부트캠프 수강생**: 코딩은 시작했지만 AI 도구는 처음인 분
 - **비개발자**: ChatGPT는 쓰지만 "복붙"에서 못 벗어나는 분
+- **메모리 CS팀**: NDA 환경에서 FA 회의록·고객 회신·VOC 분석 자동화 (별도 변형판)
 
 상급자(시니어 개발자·임베디드 엔지니어)는 원본 자료를 권장합니다:
 [jhl-labs/claude-code-1hour](https://jhl-labs.github.io/claude-code-1hour/)

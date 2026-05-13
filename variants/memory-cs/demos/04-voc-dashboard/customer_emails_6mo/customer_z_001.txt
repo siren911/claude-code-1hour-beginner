@@ -1,0 +1,22 @@
+From: pm-team@customer-z.example
+Date: 2025-12-19 13:50
+Subject: 2026 roadmap discussion request
+
+Hi team,
+
+We are starting our 2026 product planning. We would like to
+align on your DDR5-16Gb roadmap, specifically:
+
+- Density expansion plans (24Gb, 32Gb timing)
+- New packaging options
+- Speed grade roadmap (8000 MT/s, beyond)
+- Price expectations FY2026
+
+We can set up either a half-day workshop in Q1 or a series
+of focused calls. Whatever works for your team.
+
+No urgency on a specific deadline — let's find a good time
+in the next 4-6 weeks.
+
+Best regards,
+Product Management, Customer Z

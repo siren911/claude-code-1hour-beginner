@@ -31,8 +31,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build slides
+      - name: Build main slides (일반 직장인용)
         run: npm run build
+
+      - name: Build memory-cs variant (메모리 CS팀용)
+        run: npm run build:memory-cs
+
+      - name: Merge builds into pages-dist
+        run: node scripts/merge-dist.mjs
 
       - name: Setup Pages
         if: github.event_name != 'pull_request'
@@ -42,7 +48,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: slides/dist
+          path: pages-dist
 
   deploy:
     needs: build

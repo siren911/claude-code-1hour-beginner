@@ -1,0 +1,26 @@
+From: pm-team@customer-z.example
+Date: 2026-03-04 11:15
+Subject: Feedback from our Feb 28 workshop — and follow-up topics
+
+Hi team,
+
+Thanks for the great workshop on 2/28. The deep-dive on
+DDR5-16Gb roadmap was exactly what we needed.
+
+A few follow-up topics we'd like to schedule for Q2:
+
+1. Sample availability for 24Gb engineering samples
+2. Validation kit collaboration (joint test plan)
+3. Long-term supply agreement (3-year horizon)
+4. Pricing model for high-volume commits
+
+We're flexible on timing. May or June both work.
+
+Also — small thing, but really appreciated the team's
+patience explaining the wafer-level binning approach. It
+clarified a lot for our system architects.
+
+Looking forward to ongoing collaboration.
+
+Regards,
+Product Management, Customer Z

@@ -1,0 +1,42 @@
+From: engineering@customer-x.example
+To: memory-cs@our-company.example
+Date: 2026-05-13 09:42 KST
+Subject: [URGENT] Retention failure on lot ABC-2025-K42
+
+Hi memory team,
+
+We've completed our reliability qualification on the DDR5 8Gb
+samples from lot ABC-2025-K42, and the results are blocking
+our Q2 production schedule.
+
+Test conditions:
+- Stress: 1000h at 85C, JEDEC retention profile
+- Sample size: 240 units (3 wafers, 80 dies each)
+- Measurement: post-stress BER across all banks
+
+Observed:
+- Average BER: 5e-7
+- Worst die: 1.2e-6
+- Datasheet spec (we believe): 1e-8 max
+
+This is roughly 50x over spec on the average, and 120x on
+the worst case. We've cross-checked with two independent
+test setups; results are consistent.
+
+Our questions:
+1. What is the root cause? Is this a process issue or a
+   characterization gap?
+2. Which lots are affected? Just K42, or earlier lots from
+   the same fab/wafer cohort?
+3. What is your replacement / RMA plan? We have ~12k units
+   already in our finished-goods inventory.
+4. What is the long-term fix? We need to brief our customer
+   (downstream) by end of next week.
+
+We need at least a preliminary response by 5/15 to keep our
+program on schedule. Happy to set up a tech-level call if
+that's faster.
+
+Best regards,
+Engineering Team
+Customer X

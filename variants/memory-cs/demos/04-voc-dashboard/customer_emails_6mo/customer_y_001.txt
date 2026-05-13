@@ -1,0 +1,14 @@
+From: sourcing@customer-y.example
+Date: 2025-11-15 16:08
+Subject: Lead time and Q1 2026 allocation
+
+Hi team,
+
+Quick question on lead time. Our Q1 2026 forecast is 250k
+units of LPDDR5-12Gb. Current allocation message we received
+shows 180k. We need to align before our 11/22 PO cutoff.
+
+Can we have a quick call this week? Even 15 minutes works.
+
+Thanks,
+Sourcing, Customer Y
